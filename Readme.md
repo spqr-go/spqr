@@ -12,26 +12,28 @@ SPQR is a tool for creating Go projects using hexagonal architecture easily and 
 ## Requirements
 
 - Go 1.16 or higher
-- Docker
-- Docker Compose
+- Homebrew 
 
 ## Installation
 
-To install SPQR, clone this repository and build the project:
+You can install SPQR using Homebrew. If you haven't installed Homebrew yet, you can do so with the following command:
 
 ```bash
-git clone https://github.com/your_username/spqr.git
-cd spqr
-go build
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+Once you have Homebrew installed, you can install SPQR with these commands:
 
+```bash
+brew tap spqr-go/homebrew-spqr
+brew install spqr-go/spqr/spqr
+```
 
 ## Usage
 To create a new project with SPQR, use the create command:
 
 
 ```bash
-./spqr create
+spqr create
 ```
 You will be prompted to enter the following information:
 ```bash
@@ -45,7 +47,6 @@ Database port
 
 Example
 ```bash
-Copy code
 ./spqr create
 Enter project name: my_project
 Select database (1 for Postgres 🐘, 2 for Mariadb 🦭): 1
