@@ -94,14 +94,12 @@ Open a Pull Request.
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
-Author: Your Name
-Email: your.email@example.com
+## Contact
+- Author: Galileo Luna
+- Email: galileoluna1997@gmail.com
 
 Thank you for using SPQR!
 
-python
-Copy code
 
 Let me know if you need any more help!
 
