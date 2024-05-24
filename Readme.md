@@ -83,6 +83,21 @@ my_project/
 ├── Dockerfile
 └── docker-compose.yml
 ```
+## Spring Boot 🍃
+To create a new Spring Boot project with Gradle and hexagonal architecture using SPQR, use the coffee command:
+
+```bash
+spqr coffee
+```
+
+```bash
+spqr coffee
+Let's get started with your Spring Boot 🍃 project using SPQR 🦅 ! 🚀
+
+Enter project name: my_spring_project
+Enter package name (e.g., com.example.project): com.example.my_spring_project
+```
+
 
 ## Contributions
 Contributions are welcome! If you want to contribute to this project, please follow these steps:
